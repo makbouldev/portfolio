@@ -1,0 +1,128 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #1A1A1D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    min-height: 90vh;
+    width: 100%;
+}
+.about-image{
+    background-color: white;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.about-image img {
+    width: 350px;
+    transition: transform 0.3s;
+    border-bottom: 1px solid white;
+    padding: 0 40px;
+}
+
+.about-image img:hover {
+    transform: scale(1.1);
+}
+
+.about-text {
+    margin-left: 30px;
+    max-width: 600px;
+}
+
+.about-text h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #FFFDF0;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    color: #EFF3EA;
+    line-height: 1.6;
+}
+
+.social-media ul li  {
+    margin-top: 20px;
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+.social-media li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.social-media li a:hover {
+    color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about-image img {
+        width: 340px;
+    }
+
+    .about-text h1 {
+        font-size: 2em;
+    }
+
+    .about-text p {
+        font-size: 1em;
+    }
+
+    .social-media h2 {
+        font-size: 1.5em;
+    }
+
+    .social-media ul {
+        color: #fff;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.CV{
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #493D9E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    text-decoration: none;
+}
