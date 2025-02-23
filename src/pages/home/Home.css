@@ -21,8 +21,8 @@
 }
 .home img{
   position: absolute;
-  height: 85%;
-  right: 18%;
+  height: 80%;
+  right: 15%;
   bottom: 0;
 }
 .home .TextSection{
@@ -133,13 +133,13 @@
     display: none;
   }
   .home img {
-    height: 48%;
+    height: 44%;
     left: 50%;
     transform: translate(-50%);
   }
   .home .TextSection {
     position: relative;
-    top: 16%;
+    top: 12%;
     left: 0;
     padding: 20px;
     text-align: center;

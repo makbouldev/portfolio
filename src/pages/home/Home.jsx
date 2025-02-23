@@ -2,8 +2,8 @@ import React from "react";
 import "./Home.css";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub,faReact,faLaravel, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faGithub,faReact, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faCode , faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 
 const Home = () => {
@@ -32,8 +32,8 @@ const Home = () => {
           
           <div className="stats">
             <div>
-              <h3><FontAwesomeIcon icon={faLaravel} /></h3>
-              <p>Larael</p>
+              <h3><FontAwesomeIcon icon={faListCheck} /></h3>
+              <p>Gestion de Projet</p>
             </div>
             <div>
               <h3><FontAwesomeIcon icon={faReact} /></h3>
@@ -47,7 +47,7 @@ const Home = () => {
         </div>
       </div>
       <div className="GreenSection"></div>
-      <img src="https://i.ibb.co/Y4NvZzbf/image-4-Photoroom.png" alt="" />
+      <img src="https://i.ibb.co/sdDTFLd9/image-4-Photoroom.png" alt="" />
       <div className="social-buttons">
         <a href="https://github.com/NorEdin03" target="_blank" rel="noopener noreferrer" className="social-btn">
           <FontAwesomeIcon icon={faGithub} />
